@@ -38,7 +38,7 @@ git clone https://github.com/Aleks-Ti/Api-review_service.git
 ```
 
 ```bash
-cd api_final_yatube
+cd review_service
 ```
 
 Cоздать и активировать виртуальное окружение:
