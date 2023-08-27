@@ -36,7 +36,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'api_yamdb.urls'
+ROOT_URLCONF = 'review_service.urls'
 
 TEMPLATES_DIR = BASE_DIR / 'templates'
 TEMPLATES = [
@@ -55,7 +55,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'api_yamdb.wsgi.application'
+WSGI_APPLICATION = 'review_service.wsgi.application'
 
 DATABASES = {
     'default': {
