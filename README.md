@@ -44,7 +44,7 @@ cd api_final_yatube
 Cоздать и активировать виртуальное окружение:
 
 ```bash
-python -m venv env
+python -3.11 -m venv env
 ```
 
 ```bash

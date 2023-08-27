@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
 root_dir_content = os.listdir(BASE_DIR)
-PROJECT_DIR_NAME = 'api_yamdb'
+PROJECT_DIR_NAME = ''
 
 if PROJECT_DIR_NAME not in root_dir_content or not os.path.isdir(
     os.path.join(BASE_DIR, PROJECT_DIR_NAME)

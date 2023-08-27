@@ -14,7 +14,7 @@ else:
 
 
 # test .md
-default_md = '# api_yamdb\napi_yamdb\n'
+default_md = '# review_service\nreview_service\n'
 filename = 'README.md'
 assert (
     filename in root_dir_content
